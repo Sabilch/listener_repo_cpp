@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="sabilpub" type="sabilpub" name="sabilpub" output="screen"> </node>
+</launch>
