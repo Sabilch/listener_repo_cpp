@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="consumer_pkg" type="consumer" name="consumer" output="screen"> </node>
+</launch>
