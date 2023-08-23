@@ -1,0 +1,5 @@
+<launch>
+  <node name="traces_script" pkg="cons" type="traces_script.sh" output="screen" cwd="node"/>
+  <node name="Cons" pkg="cons" type="Cons" args="" output="screen"/>
+  <node name="start_cons_" pkg="cons" type="Cons" args="" output="screen"/>
+</launch>
